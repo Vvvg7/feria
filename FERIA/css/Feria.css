@@ -1,0 +1,226 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: url(../imagenes/Fondo.jpg);
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+
+ul.barra{
+ display: flex;
+ justify-content: space-around;
+}
+
+
+
+.items{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.barra{
+    text-align: center;
+    list-style-type:none;
+
+}
+
+main{
+    padding-top: 80px;
+}
+
+
+h1.titulo{
+    color: rgba(255, 136, 0, 0.932);
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 100px;
+    margin: 15px;
+}
+
+
+
+h2.subtitulo{
+    color: rgba(230, 10, 164, 0.932);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+    margin: 5px;
+
+}
+
+p{
+  
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    margin: 15px;
+    
+
+}
+
+    
+.COMPRAR1{
+    text-align: left;
+    color: rgb(14, 1, 1);
+    font-size: 35px;
+    text-decoration: none;
+
+
+}
+
+.bxl-instagram{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.bxl-gmail{
+    font-size: 40px;
+    color: crimson;
+}
+
+.bxl-whatsapp{
+    font-size: 40px;
+    color: green;
+}
+
+.bxs-truck{
+    font-size: 40px;
+    color: black;
+}
+
+.ICONOS{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.articulos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 60PX;
+}
+
+
+.card1{
+    background-color: lightskyblue;
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    z-index: 5;
+
+}
+.card2{
+    background-color: rgb(152, 135, 250);
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    z-index: 5;
+    margin: 10px;
+
+
+}
+.card3{
+    background-color: rgb(250, 135, 179);
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    z-index: 5;
+    margin: 10px;
+
+
+}
+
+.card4{
+    background-color: rgb(135, 250, 196);
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    z-index: 5;
+    margin: 10px;
+}
+
+.card5{
+    background-color: rgb(250, 135, 135);
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    z-index: 5;
+    margin: 10px;
+}
+
+.card6{
+    background-color: rgb(135, 227, 250);
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    z-index: 5;
+    margin: 10px;
+}
+
+.card7{
+    background-color: rgb(217, 135, 250);
+    width: 280px;
+    text-align: center;
+    padding: 5px;
+    z-index: 5;
+    margin: 10px;
+}
+
+.barticulos{
+
+    background-color: orange;
+    padding: 5px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: black;
+}
+
+.barticulos:hover {
+background-color: orangered;
+
+}
+
+h3.titulocard{
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+}
+
+h3.pie{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h3.contactos{
+
+    color: rgba(230, 10, 164, 0.932);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    margin: 5px;
+
+}
